@@ -98,7 +98,7 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Homepageimage1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/organization3.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -503,3 +503,5 @@ input.form-control {
     box-shadow: none;
     border-color: var(--brand);
 }
+
+
