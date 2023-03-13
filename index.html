@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>FLBQR</title>
 </head>
@@ -66,7 +68,7 @@
                         <a class="nav-link" href="#ourgallery">Our Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#FAQS">FAQS</a>
+                        <a class="nav-link" href="#faqs">FAQS</a>
                     </li>
                     <li class="nav-item">
                         
@@ -524,13 +526,7 @@
                 </div>
             </div>
 
-            <!-- <font face="sans-serif" color="#017bf5" size="5" align="center">
-                
-            </font>
-            <font face="sans-serif" color="#444" size="3" align="center">
-               
-            </font> -->
-        
+           
             <table>
                 <tr>
                     <td>
@@ -612,47 +608,88 @@
                 
             </table>
 
-
-
-            <!-- <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project5.jpg" alt="">
-                        <a href="#" class="tag">Web Design</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article> -->
-                <!-- </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project4.jpg" alt="">
-                        <a href="#" class="tag">Programming</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article> -->
-                <!-- </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <img src="img/project2.jpg" alt="">
-                        <a href="#" class="tag">Marketing</a>
-                        <div class="content">
-                            <small>01 Dec, 2022</small>
-                            <h5>Web Design trends in 2022</h5>
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                                piece of classical Latin literature from</p>
-                        </div>
-                    </article> -->
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="faqs">
+        <div class="container">
+            <div class="row">
+              <div class="faq-wrapper">
+                <div class="header">
+                  <h1>FAQs</h1>
+                </div>
+                <div class="faq-inner">
+                  <div class="faq-item">
+                    <h3>
+                        Is FLBQR registered ? 
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        Yes, FLBQR was registered in 2019.
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="faq-item">
+                    <h3>
+                        Does FLBQR cater for all asylum seekers / refugees ?
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        Answer: No, FLBQR is focused on registered LBQGNC refugees and works closely with other LGBTIQ+ organizations.
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="faq-item">
+                    <h3>
+                        Does FLBQR has a permanent safe house ?
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        No FLBQR has a transitional home for people who are referred and there documents have been verified the longest you can stay in the transitional safe house is two weeks as you figure something out.
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="faq-item">
+                    <h3>
+                        Does FLBQR cater for mental health?
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        Yes, we for mental health through referrals of partnered organization that we have.
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="faq-item">
+                    <h3>
+                        Does FLBQR cater for LBQ Women refugees needs like rent and food?
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        No. FLBQR is not mandated to pay rent for refugees/ asylum seekers or buy them food.
+                  </div>
+                  </div>
+                  <hr>
+                  <div class="faq-item">
+                    <h3>
+                        Does FLBQR help out in Emergency situations for example taking sick people to hospitals and paying their hospital bills?
+                      <span class="faq-plus">&plus;</span>
+                    </h3>
+                    <div class="faq-body">
+                        No. FLBQR does refer patients to NCCK HUDUMA hospitals for further assessment and referrals.
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script type="text/javascript">
+            $(".faq-plus").on('click',function(){
+              $(this).parent().parent().find('.faq-body').slideToggle();
+            });
+</script>
     </section>
 
     <footer>
@@ -667,7 +704,6 @@
                             <a href="#"><i class='bx bxl-facebook'></i></a>
                             <a href="#"><i class='bx bxl-twitter'></i></a>
                             <a href="#"><i class='bx bxl-instagram'></i></a>
-                            <a href="#"><i class='bx bxl-pinterest'></i></a>
                         </div>
                     </div>
                 </div>
