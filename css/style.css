@@ -80,7 +80,7 @@ section {
 
 .hero-slider .owl-prev:hover,
 .hero-slider .owl-next:hover {
-    background-color: var(--brand) !important; 
+    background-color: #22b2d6 !important; 
 }
 
 .owl-dot.active span{
@@ -98,14 +98,14 @@ section {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Homepageimage1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Dhalies\ photo.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,6 +206,11 @@ text-align: center;}
 }
 
 .intro h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro h7 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
