@@ -135,9 +135,6 @@ section {
     vertical-align: middle;
 }
 
-.navbar {
-    box-shadow: var(--shadow);
-}
 
 .social-icons a {
     width: 28px;
@@ -156,9 +153,9 @@ section {
     color: var(--brand);
 }
 
-.navbar .navbar-nav .nav-link {
+/* .navbar .navbar-nav .nav-link {
     color: var(--dark);
-}
+} */
 
 .navbar .navbar-nav .nav-link:hover {
     color: #22b2d6;
@@ -168,9 +165,15 @@ section {
     color: #22b2d6;
 }
 
+.navbar {
+    box-shadow: opx 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+
 .navbar-brand {
     font-size: 28px;
     font-weight: 700;
+    color: #092032;
 }
 
 .navbar-brand .dot {
@@ -182,8 +185,8 @@ section {
 }
 
 .btn-brand {
-    border-color: var(--brand);
-    background-color: var(--brand);
+    border-color: #ff4d29;
+    background-color: #ff4d29;
     color: #fff;
 }
 
@@ -545,3 +548,7 @@ body{
   hr{
     background-color: #9b9b9b;
   }
+
+
+
+  
